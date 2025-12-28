@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 def train():
     # Load and preprocess data
-    raw_path = "data/raw"
+    raw_path = "data/real/Training"
     print("Loading data...")
     X, y = load_data(raw_path)
     
